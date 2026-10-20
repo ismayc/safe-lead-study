@@ -102,12 +102,12 @@ def main() -> int:
     if args.check:
         fails = []
         old = pl.read_csv(COUNTS, schema_overrides=sm.schema)
-        if not sm.equals(old):
+        if not lib.frames_match(sm, old):
             fails.append("comeback_counts.csv differs from a fresh build")
-        if not sf.equals(pl.read_csv(SAFE, schema_overrides=sf.schema)):
+        if not lib.frames_match(sf, pl.read_csv(SAFE, schema_overrides=sf.schema)):
             fails.append("safe_leads.csv differs from a fresh build")
         for name, df, path in (("situations.csv", st, SIT), ("situation_change.csv", ch, CHANGE)):
-            if not df.equals(pl.read_csv(path, schema_overrides=df.schema)):
+            if not lib.frames_match(df, pl.read_csv(path, schema_overrides=df.schema)):
                 fails.append(f"{name} differs from a fresh build")
         if rises.height:
             fails.append(f"{rises.height} smoothed rates rise with lead")

@@ -108,7 +108,7 @@ def main() -> int:
         fails = [name for name, df, path in [("brownian_fits.csv", fits, FITS),
                                              ("brownian_safe_leads.csv", safe, SAFE),
                                              ("brownian_calibration.csv", calib, CALIB)]
-                 if not df.equals(pl.read_csv(path, schema_overrides=df.schema))]
+                 if not lib.frames_match(df, pl.read_csv(path, schema_overrides=df.schema))]
         for f in fails:
             print("FAIL", f, "differs from a fresh build")
         print("BROWNIAN", "FAILED" if fails else f"PASSED: {fits.height} fits")

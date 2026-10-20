@@ -69,9 +69,9 @@ def main() -> int:
     ).filter(pl.col("lost") > 0.05)
     if args.check:
         fails = []
-        if not cov.equals(pl.read_csv(COVERAGE)):
+        if not lib.frames_match(cov, pl.read_csv(COVERAGE)):
             fails.append("coverage.csv differs from a fresh build")
-        if not summ.equals(pl.read_csv(SUMMARY, schema_overrides=summ.schema)):
+        if not lib.frames_match(summ, pl.read_csv(SUMMARY, schema_overrides=summ.schema)):
             fails.append("checkpoint_summary.csv differs from a fresh build")
         if bad.height:
             fails.append(f"seasons losing over 5% of games: {bad.select('league', 'year').rows()}")

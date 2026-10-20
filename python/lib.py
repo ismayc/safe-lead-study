@@ -262,3 +262,23 @@ def brownian_safe_lead(sigma: float, T: float, q: float) -> float:
     """Lead at which the trailing team's win probability is q with T
     seconds left: z_(1-q) * sigma * sqrt(T / 60)."""
     return Z_ONE_SIDED[q] * sigma * math.sqrt(T / 60)
+
+
+def frames_match(new: pl.DataFrame, old: pl.DataFrame, tol: float = 1e-9) -> bool:
+    """The --check comparison: same columns and rows, text and integers
+    exact, floats within tol. Exact equality is not used for floats because
+    polars group_by aggregates in thread order, so a rerun can move the last
+    bit of a mean (seen in this study's team_shots.csv: 2 of 5 reruns)."""
+    if new.columns != old.columns or new.height != old.height:
+        return False
+    for c in new.columns:
+        a, b = new[c], old[c]
+        if (a.is_null() != b.is_null()).any():
+            return False
+        if a.dtype.is_float() or b.dtype.is_float():
+            d = (a.cast(pl.Float64) - b.cast(pl.Float64)).abs().max()
+            if d is not None and d > tol:
+                return False
+        elif not (a.cast(pl.Utf8) == b.cast(pl.Utf8)).fill_null(True).all():
+            return False
+    return True

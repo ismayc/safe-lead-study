@@ -127,3 +127,13 @@ def test_newcombe_matches_the_published_example(lib):
     # A wider z widens both ends.
     _, alo, ahi = lib.newcombe(56, 70, 48, 80, lib.Z_BONF12)
     assert alo < lo and ahi > hi
+
+
+def test_frames_match_tolerates_noise_but_not_differences(lib):
+    a = pl.DataFrame({"k": ["x", "y"], "n": [1, 2], "v": [0.5, 0.25]})
+    assert lib.frames_match(a, a.with_columns(pl.col("v") + 1e-13))
+    assert not lib.frames_match(a, a.with_columns(pl.col("v") + 1e-6))
+    assert not lib.frames_match(a, a.with_columns(pl.col("n") + 1))
+    assert not lib.frames_match(a, a.with_columns(pl.lit("z").alias("k")))
+    assert not lib.frames_match(a, a.head(1))
+    assert not lib.frames_match(a, a.with_columns(pl.lit(None, pl.Float64).alias("v")))
