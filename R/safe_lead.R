@@ -173,4 +173,26 @@ calib <- cps |>
   summarise(n = n(), observed = mean(comeback), predicted = mean(pred), .groups = "drop") |>
   arrange(league, era, t_band, lead_band)
 write_csv(calib, "output/brownian_calibration_r.csv")
+
+# All eras pooled: each era's rates weighted by its checkpoints.
+pooled <- calib |>
+  group_by(league, t_band, lead_band) |>
+  summarise(obs = sum(observed * n), pred = sum(predicted * n), n = sum(n),
+            .groups = "drop") |>
+  mutate(observed = obs / n, predicted = pred / n) |>
+  select(league, t_band, lead_band, n, observed, predicted) |>
+  arrange(league, t_band, lead_band)
+write_csv(pooled, "output/brownian_calibration_pooled_r.csv")
+
+# Fourth-quarter fan: the model's comeback chance for the middle lead of the
+# "start of Q4, up 10-14" situation at the start of the fourth quarter.
+fs <- SITUATIONS[SITUATIONS$situation == "start of Q4, up 10-14", ]
+fan_lead <- (fs$lo + fs$hi) / 2
+fan <- ef |>
+  transmute(league, era = label, T = ifelse(league == "nba", fs$t_nba, fs$t_wnba),
+            lead = fan_lead, sigma,
+            p_comeback = pnorm(-lead / (sigma * sqrt(T / 60))),
+            p_comeback_lo = pnorm(-lead / (sigma_lo * sqrt(T / 60))),
+            p_comeback_hi = pnorm(-lead / (sigma_hi * sqrt(T / 60))))
+write_csv(fan, "output/brownian_q4_fan_r.csv")
 cat("R pipeline: ", nrow(cps), " checkpoints, ", nrow(sm), " cells, ", nrow(fits), " fits\n", sep = "")

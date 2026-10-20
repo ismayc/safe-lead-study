@@ -1,0 +1,1538 @@
+{
+ "bindings": [
+  {
+   "token": "35,492",
+   "sign": "",
+   "before": "season game since the late #s:",
+   "nth": 0,
+   "table": "output/coverage.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 1,
+   "abs": false,
+   "expr": {
+    "agg": "sum",
+    "table": "output/coverage.csv",
+    "column": "games_used",
+    "where": {
+     "league": "nba"
+    }
+   }
+  },
+  {
+   "token": "6,469",
+   "sign": "",
+   "before": " # NBA games from ## to ## and",
+   "nth": 0,
+   "table": "output/coverage.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 1,
+   "abs": false,
+   "expr": {
+    "agg": "sum",
+    "table": "output/coverage.csv",
+    "column": "games_used",
+    "where": {
+     "league": "wnba"
+    }
+   }
+  },
+  {
+   "token": "10.1%",
+   "sign": "",
+   "before": "s lost more often than it was,",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "last_rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "5.8%",
+   "sign": "",
+   "before": " the last five seasons against",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "first_rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "5.8%",
+   "sign": "",
+   "before": "acks</div> <div class=\"value\">",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "first_rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "10.1%",
+   "sign": "",
+   "before": "/div> <div class=\"value\">#% to",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "last_rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "4.3",
+   "sign": "+",
+   "before": "ange</div> <div class=\"value\">",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "2.0",
+   "sign": "+",
+   "before": "> <div class=\"sub\">#% interval",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_lo",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "6.5",
+   "sign": "+",
+   "before": "v class=\"sub\">#% interval # to",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_hi",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "1.0",
+   "sign": "+",
+   "before": "lass=\"sub\">#% interval # to #;",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_lo_adj",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "7.6",
+   "sign": "+",
+   "before": "\"sub\">#% interval # to #; # to",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_hi_adj",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "12",
+   "sign": "",
+   "before": "# to # after adjusting for all",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {},
+   "column": "__rows__",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.43",
+   "sign": "",
+   "before": "lity</div> <div class=\"value\">",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "1996-97 to 2000-01"
+   },
+   "column": "sigma",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.78",
+   "sign": "",
+   "before": "</div> <div class=\"value\"># to",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "2021-22 to 2025-26"
+   },
+   "column": "sigma",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "6.2",
+   "sign": "",
+   "before": "eads</div> <div class=\"value\">",
+   "nth": 0,
+   "table": "output/brownian_calibration_pooled.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 1,
+   "abs": false,
+   "expr": {
+    "op": "/",
+    "args": [
+     {
+      "table": "output/brownian_calibration_pooled.csv",
+      "where": {
+       "league": "nba",
+       "t_band": "0-60s",
+       "lead_band": "7-10"
+      },
+      "column": "observed"
+     },
+     {
+      "table": "output/brownian_calibration_pooled.csv",
+      "where": {
+       "league": "nba",
+       "t_band": "0-60s",
+       "lead_band": "7-10"
+      },
+      "column": "predicted"
+     }
+    ]
+   }
+  },
+  {
+   "token": "0.17%",
+   "sign": "",
+   "before": "e random-walk model predicts (",
+   "nth": 0,
+   "table": "output/brownian_calibration_pooled.csv",
+   "where": {
+    "league": "nba",
+    "t_band": "0-60s",
+    "lead_band": "7-10"
+   },
+   "column": "observed",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "0.03%",
+   "sign": "",
+   "before": "alk model predicts (#% against",
+   "nth": 0,
+   "table": "output/brownian_calibration_pooled.csv",
+   "where": {
+    "league": "nba",
+    "t_band": "0-60s",
+    "lead_band": "7-10"
+   },
+   "column": "predicted",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "12",
+   "sign": "",
+   "before": " entered the fourth quarter up",
+   "nth": 0,
+   "table": "output/example_game.csv",
+   "where": {
+    "kind": "checkpoint",
+    "T": 720
+   },
+   "column": "margin",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "12",
+   "sign": "",
+   "before": "ferroni adjustment for running",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {},
+   "column": "__rows__",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "55",
+   "sign": "",
+   "before": "an one basket on a single row;",
+   "nth": 0,
+   "table": "output/coverage.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 1,
+   "abs": false,
+   "expr": {
+    "op": "-",
+    "args": [
+     {
+      "op": "-",
+      "args": [
+       {
+        "agg": "sum",
+        "table": "output/coverage.csv",
+        "column": "final_mismatch",
+        "where": {
+         "league": "nba"
+        }
+       },
+       {
+        "op": "-",
+        "args": [
+         0,
+         {
+          "agg": "sum",
+          "table": "output/coverage.csv",
+          "column": "stamp_jump",
+          "where": {
+           "league": "nba"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "op": "-",
+      "args": [
+       0,
+       {
+        "op": "-",
+        "args": [
+         {
+          "agg": "sum",
+          "table": "output/coverage.csv",
+          "column": "no_events",
+          "where": {
+           "league": "nba"
+          }
+         },
+         {
+          "op": "-",
+          "args": [
+           0,
+           {
+            "agg": "sum",
+            "table": "output/coverage.csv",
+            "column": "no_gamelog",
+            "where": {
+             "league": "nba"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "token": "27",
+   "sign": "",
+   "before": "ket on a single row; # NBA and",
+   "nth": 0,
+   "table": "output/coverage.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 1,
+   "abs": false,
+   "expr": {
+    "op": "-",
+    "args": [
+     {
+      "op": "-",
+      "args": [
+       {
+        "agg": "sum",
+        "table": "output/coverage.csv",
+        "column": "final_mismatch",
+        "where": {
+         "league": "wnba"
+        }
+       },
+       {
+        "op": "-",
+        "args": [
+         0,
+         {
+          "agg": "sum",
+          "table": "output/coverage.csv",
+          "column": "stamp_jump",
+          "where": {
+           "league": "wnba"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "op": "-",
+      "args": [
+       0,
+       {
+        "op": "-",
+        "args": [
+         {
+          "agg": "sum",
+          "table": "output/coverage.csv",
+          "column": "no_events",
+          "where": {
+           "league": "wnba"
+          }
+         },
+         {
+          "op": "-",
+          "args": [
+           0,
+           {
+            "agg": "sum",
+            "table": "output/coverage.csv",
+            "column": "no_gamelog",
+            "where": {
+             "league": "wnba"
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "token": "5.8%",
+   "sign": "",
+   "before": "ntering the fourth quarter won",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14",
+    "era": "1996-97 to 2000-01"
+   },
+   "column": "rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "62",
+   "sign": "",
+   "before": "#% of the time from ## to ## (",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14",
+    "era": "1996-97 to 2000-01"
+   },
+   "column": "k",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "1,064",
+   "sign": "",
+   "before": "f the time from ## to ## (# of",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14",
+    "era": "1996-97 to 2000-01"
+   },
+   "column": "n",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "10.1%",
+   "sign": "",
+   "before": "om ## to ## (# of # games) and",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14",
+    "era": "2021-22 to 2025-26"
+   },
+   "column": "rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "118",
+   "sign": "",
+   "before": " games) and #% from ## to ## (",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14",
+    "era": "2021-22 to 2025-26"
+   },
+   "column": "k",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "1,167",
+   "sign": "",
+   "before": "es) and #% from ## to ## (# of",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14",
+    "era": "2021-22 to 2025-26"
+   },
+   "column": "n",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "4.3",
+   "sign": "",
+   "before": " to ## (# of #). The change is",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "2.0",
+   "sign": "",
+   "before": " points, with a #% interval of",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_lo",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "6.5",
+   "sign": "",
+   "before": "ts, with a #% interval of # to",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_hi",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "1.0",
+   "sign": "",
+   "before": " to # and it stays above zero,",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_lo_adj",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "7.6",
+   "sign": "",
+   "before": " and it stays above zero, # to",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_hi_adj",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "7.7%",
+   "sign": "",
+   "before": "n intervals. The NBA sits near",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 100,
+   "abs": false,
+   "expr": {
+    "agg": "mean",
+    "table": "output/situations.csv",
+    "column": "rate",
+    "where": {
+     "league": "nba",
+     "situation": "start of Q4, up 10-14"
+    },
+    "range": {
+     "rate": [
+      0.07,
+      0.08
+     ]
+    }
+   }
+  },
+  {
+   "token": "10%",
+   "sign": "",
+   "before": "e eras, then steps up to about",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 100,
+   "abs": false,
+   "expr": {
+    "agg": "mean",
+    "table": "output/situations.csv",
+    "column": "rate",
+    "where": {
+     "league": "nba",
+     "situation": "start of Q4, up 10-14"
+    },
+    "range": {
+     "rate": [
+      0.1,
+      0.11
+     ]
+    }
+   }
+  },
+  {
+   "token": "7.6%",
+   "sign": "",
+   "before": "gradual. The rate held between",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 100,
+   "abs": false,
+   "expr": {
+    "agg": "min",
+    "table": "output/situations.csv",
+    "column": "rate",
+    "where": {
+     "league": "nba",
+     "situation": "start of Q4, up 10-14"
+    },
+    "range": {
+     "rate": [
+      0.07,
+      0.08
+     ]
+    }
+   }
+  },
+  {
+   "token": "7.8%",
+   "sign": "",
+   "before": ". The rate held between #% and",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 100,
+   "abs": false,
+   "expr": {
+    "agg": "max",
+    "table": "output/situations.csv",
+    "column": "rate",
+    "where": {
+     "league": "nba",
+     "situation": "start of Q4, up 10-14"
+    },
+    "range": {
+     "rate": [
+      0.07,
+      0.08
+     ]
+    }
+   }
+  },
+  {
+   "token": "7.8%",
+   "sign": "",
+   "before": "middle eras, then stepped from",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14",
+    "era": "2011-12 to 2015-16"
+   },
+   "column": "rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "10.2%",
+   "sign": "",
+   "before": " eras, then stepped from #% to",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14",
+    "era": "2016-17 to 2020-21"
+   },
+   "column": "rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "3.5%",
+   "sign": "",
+   "before": "p # to # the trailing team won",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "wnba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "first_rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "3.7%",
+   "sign": "",
+   "before": "n #% of the time in # to # and",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "wnba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "last_rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "0.2",
+   "sign": "+",
+   "before": "# and #% in # to # a change of",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "wnba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "4.1",
+   "sign": "-",
+   "before": "f # points with an interval of",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "wnba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_lo",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "3.9",
+   "sign": "+",
+   "before": "oints with an interval of # to",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "wnba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "change_hi",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "18%",
+   "sign": "",
+   "before": "amples in these situations are",
+   "nth": 0,
+   "table": "output/situations.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 100,
+   "abs": false,
+   "expr": {
+    "op": "/",
+    "args": [
+     {
+      "agg": "sum",
+      "table": "output/situations.csv",
+      "column": "n",
+      "where": {
+       "league": "wnba"
+      }
+     },
+     {
+      "agg": "sum",
+      "table": "output/situations.csv",
+      "column": "n",
+      "where": {
+       "league": "nba"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "token": "20",
+   "sign": "",
+   "before": "eat\">Safe leads</div> ## About",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "21",
+   "sign": "",
+   "before": "tart of the fourth quarter was",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "17",
+   "sign": "",
+   "before": "points in ## to ## (a range of",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "21",
+   "sign": "",
+   "before": "s in ## to ## (a range of # to",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "20",
+   "sign": "",
+   "before": " # from the Wilson bounds) and",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "18",
+   "sign": "",
+   "before": "ds) and # points in ## to ## (",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "23",
+   "sign": "",
+   "before": "and # points in ## to ## (# to",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "15",
+   "sign": "",
+   "before": "(# to #). With #:# left it was",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 360,
+    "q": 0.01
+   },
+   "column": "safe_lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "13",
+   "sign": "",
+   "before": "o #). With #:# left it was # (",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 360,
+    "q": 0.01
+   },
+   "column": "safe_lead_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "17",
+   "sign": "",
+   "before": ". With #:# left it was # (# to",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 360,
+    "q": 0.01
+   },
+   "column": "safe_lead_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "17",
+   "sign": "",
+   "before": "eft it was # (# to #) and then",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 360,
+    "q": 0.01
+   },
+   "column": "safe_lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "13",
+   "sign": "",
+   "before": "it was # (# to #) and then # (",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 360,
+    "q": 0.01
+   },
+   "column": "safe_lead_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "19",
+   "sign": "",
+   "before": "as # (# to #) and then # (# to",
+   "nth": 0,
+   "table": "output/safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 360,
+    "q": 0.01
+   },
+   "column": "safe_lead_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.43",
+   "sign": "",
+   "before": "me change. NBA sigma rose from",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "1996-97 to 2000-01"
+   },
+   "column": "sigma",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.34",
+   "sign": "",
+   "before": "sigma rose from # (#% interval",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "1996-97 to 2000-01"
+   },
+   "column": "sigma_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.53",
+   "sign": "",
+   "before": " rose from # (#% interval # to",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "1996-97 to 2000-01"
+   },
+   "column": "sigma_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.78",
+   "sign": "",
+   "before": "nterval # to #) in ## to ## to",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "2021-22 to 2025-26"
+   },
+   "column": "sigma",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.68",
+   "sign": "",
+   "before": "val # to #) in ## to ## to # (",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "2021-22 to 2025-26"
+   },
+   "column": "sigma_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.88",
+   "sign": "",
+   "before": "# to #) in ## to ## to # (# to",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "2021-22 to 2025-26"
+   },
+   "column": "sigma_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.55",
+   "sign": "",
+   "before": "s the comeback step: sigma was",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "2011-12 to 2015-16"
+   },
+   "column": "sigma",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.81",
+   "sign": "",
+   "before": "p: sigma was # in ## to ## and",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "nba",
+    "unit": "era",
+    "label": "2016-17 to 2020-21"
+   },
+   "column": "sigma",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "19.6",
+   "sign": "",
+   "before": " the fourth quarter moved from",
+   "nth": 0,
+   "table": "output/brownian_safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "18.8",
+   "sign": "",
+   "before": " quarter moved from # points (",
+   "nth": 0,
+   "table": "output/brownian_safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "20.4",
+   "sign": "",
+   "before": "rter moved from # points (# to",
+   "nth": 0,
+   "table": "output/brownian_safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "22.4",
+   "sign": "",
+   "before": "oved from # points (# to #) to",
+   "nth": 0,
+   "table": "output/brownian_safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "21.6",
+   "sign": "",
+   "before": " from # points (# to #) to # (",
+   "nth": 0,
+   "table": "output/brownian_safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "23.2",
+   "sign": "",
+   "before": "m # points (# to #) to # (# to",
+   "nth": 0,
+   "table": "output/brownian_safe_leads.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26",
+    "T": 720,
+    "q": 0.01
+   },
+   "column": "safe_lead_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.14",
+   "sign": "",
+   "before": ". In the WNBA, sigma went from",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "wnba",
+    "unit": "era",
+    "label": "1997 to 2001"
+   },
+   "column": "sigma",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "1.96",
+   "sign": "",
+   "before": " the WNBA, sigma went from # (",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "wnba",
+    "unit": "era",
+    "label": "1997 to 2001"
+   },
+   "column": "sigma_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.34",
+   "sign": "",
+   "before": " WNBA, sigma went from # (# to",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "wnba",
+    "unit": "era",
+    "label": "1997 to 2001"
+   },
+   "column": "sigma_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.44",
+   "sign": "",
+   "before": " sigma went from # (# to #) to",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "wnba",
+    "unit": "era",
+    "label": "2022 to 2026"
+   },
+   "column": "sigma",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.27",
+   "sign": "",
+   "before": "ma went from # (# to #) to # (",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "wnba",
+    "unit": "era",
+    "label": "2022 to 2026"
+   },
+   "column": "sigma_lo",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "2.64",
+   "sign": "",
+   "before": "ent from # (# to #) to # (# to",
+   "nth": 0,
+   "table": "output/brownian_fits.csv",
+   "where": {
+    "league": "wnba",
+    "unit": "era",
+    "label": "2022 to 2026"
+   },
+   "column": "sigma_hi",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "12",
+   "sign": "",
+   "before": "low zero at the buzzer. From a",
+   "nth": 0,
+   "table": "output/brownian_q4_fan.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01"
+   },
+   "column": "lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "7.7%",
+   "sign": "",
+   "before": "odel gives the trailing team a",
+   "nth": 0,
+   "table": "output/brownian_q4_fan.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01"
+   },
+   "column": "p_comeback",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "10.6%",
+   "sign": "",
+   "before": "with the first era's sigma and",
+   "nth": 0,
+   "table": "output/brownian_q4_fan.csv",
+   "where": {
+    "league": "nba",
+    "era": "2021-22 to 2025-26"
+   },
+   "column": "p_comeback",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "5.8%",
+   "sign": "",
+   "before": "for leads of # to # moved from",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "first_rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "10.1%",
+   "sign": "",
+   "before": "ads of # to # moved from #% to",
+   "nth": 0,
+   "table": "output/situation_change.csv",
+   "where": {
+    "league": "nba",
+    "situation": "start of Q4, up 10-14"
+   },
+   "column": "last_rate",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "12",
+   "sign": "",
+   "before": "w of the fourth quarter from a",
+   "nth": 0,
+   "table": "output/brownian_q4_fan.csv",
+   "where": {
+    "league": "nba",
+    "era": "1996-97 to 2000-01"
+   },
+   "column": "lead",
+   "scale": 1,
+   "abs": false
+  },
+  {
+   "token": "0.17%",
+   "sign": "",
+   "before": "nute, leads of # to # are lost",
+   "nth": 0,
+   "table": "output/brownian_calibration_pooled.csv",
+   "where": {
+    "league": "nba",
+    "t_band": "0-60s",
+    "lead_band": "7-10"
+   },
+   "column": "observed",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "0.03%",
+   "sign": "",
+   "before": " the time, against the model's",
+   "nth": 0,
+   "table": "output/brownian_calibration_pooled.csv",
+   "where": {
+    "league": "nba",
+    "t_band": "0-60s",
+    "lead_band": "7-10"
+   },
+   "column": "predicted",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "6.2",
+   "sign": "",
+   "before": "me, against the model's #%, or",
+   "nth": 0,
+   "table": "output/brownian_calibration_pooled.csv",
+   "where": {},
+   "column": "expr",
+   "scale": 1,
+   "abs": false,
+   "expr": {
+    "op": "/",
+    "args": [
+     {
+      "table": "output/brownian_calibration_pooled.csv",
+      "where": {
+       "league": "nba",
+       "t_band": "0-60s",
+       "lead_band": "7-10"
+      },
+      "column": "observed"
+     },
+     {
+      "table": "output/brownian_calibration_pooled.csv",
+      "where": {
+       "league": "nba",
+       "t_band": "0-60s",
+       "lead_band": "7-10"
+      },
+      "column": "predicted"
+     }
+    ]
+   }
+  },
+  {
+   "token": "0.54%",
+   "sign": "",
+   "before": "y, leads of # or more are lost",
+   "nth": 0,
+   "table": "output/brownian_calibration_pooled.csv",
+   "where": {
+    "league": "nba",
+    "t_band": "360-720s",
+    "lead_band": "16+"
+   },
+   "column": "observed",
+   "scale": 100,
+   "abs": false
+  },
+  {
+   "token": "0.79%",
+   "sign": "",
+   "before": "re lost #% of the time against",
+   "nth": 0,
+   "table": "output/brownian_calibration_pooled.csv",
+   "where": {
+    "league": "nba",
+    "t_band": "360-720s",
+    "lead_band": "16+"
+   },
+   "column": "predicted",
+   "scale": 100,
+   "abs": false
+  }
+ ]
+}

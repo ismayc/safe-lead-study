@@ -26,6 +26,8 @@ PAIRS = {
     "brownian_fits": ["league", "unit", "label"],
     "brownian_safe_leads": ["league", "era", "T", "q"],
     "brownian_calibration": ["league", "era", "t_band", "lead_band"],
+    "brownian_q4_fan": ["league", "era"],
+    "brownian_calibration_pooled": ["league", "t_band", "lead_band"],
 }
 
 

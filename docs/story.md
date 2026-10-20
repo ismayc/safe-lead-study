@@ -34,6 +34,8 @@ less than 1% of the time. It reads the score every 5 seconds over the last
 two minutes of regulation and every 30 seconds before that, and it answers
 in two ways, each with its own claim.
 
+{{svg:dg1_reading_a_game|One game read the way the study reads every game: New Orleans against Cleveland on March 21, 2026. Each dot is a checkpoint, where the study records who leads and by how much. New Orleans entered the fourth quarter up 12, inside the 10 to 14 band the era comparison uses, and Cleveland won, so this game counts as one comeback in that situation.}}
+
 The first is a count. For each lead, time left, and era, it takes the share
 of games the trailing team went on to win, overtime included. Those rates
 are smoothed so that a bigger lead is never less safe than a smaller one,
@@ -88,6 +90,8 @@ quarter was 21 points in 1996-97 to 2000-01 (a range of 17 to 21 from the
 Wilson bounds) and 20 points in 2021-22 to 2025-26 (18 to 23). With 6:00
 left it was 15 (13 to 17) and then 17 (13 to 19).
 
+{{svg:dg3_comeback_grid|How often the NBA team trailing in the fourth quarter goes on to win, by lead (rows) and minutes left (columns), smoothed so a bigger lead is never less safe. Above the red line, leads were lost less than 1% of the time. In the recent era the darker cells reach higher in most columns: the same lead is lost more often. The boxed cells are the 10 to 14 point leads entering the fourth.}}
+
 {{fig:fig3_safe_lead_curve_py|The NBA's 1% safe lead by minutes left, first era against last. Dots are observed safe leads; dotted lines are the Brownian model's. The model's curve for the recent era sits above the early one at every time left.}}
 
 These single cells are noisy. The 1% tail rests on a few hundred games per
@@ -110,6 +114,15 @@ the fourth quarter moved from 19.6 points (18.8 to 20.4) to 22.4 (21.6 to
 
 {{fig:fig2_sigma_by_season_py|Score-margin volatility, sigma, fitted season by season with 95% intervals. NBA seasons from 2016-17 on sit at or above the top of the earlier range (the season intervals overlap), while the WNBA's seasons move up and down inside much wider intervals with no clear trend.}}
 
+In the model, sigma links the two findings. With no drift, the model
+spreads the margin over the remaining minutes in proportion to sigma, so a wider spread leaves more of the outcomes below zero at the
+buzzer. From a 12-point lead entering the fourth quarter, the model gives
+the trailing team a 7.7% chance with the first era's sigma and 10.6% with
+the last era's. The observed rates for leads of 10 to 14 moved from 5.8% to
+10.1%, in the same direction.
+
+{{svg:dg2_sigma_fan|The model's view of the fourth quarter from a 12-point NBA lead. The shaded fan is where the margin is likely to be as the quarter plays out; the curve at the buzzer is the margin's final spread, and its red tail is the share of games the trailing team wins. The recent era's sigma widens the fan (the dashed line is the first era's edge) and enlarges the red tail.}}
+
 <div class="eyebrow beat">Where the model breaks</div>
 
 ## A random walk has no term for fouling or team strength
@@ -123,6 +136,8 @@ constant-rate random walk has no room for. The error runs the other way for big 
 against 0.79% predicted. Big leads belong disproportionately to better
 teams, and the model has no term for team strength (an interpretation, not
 tested here). For the endgame, the observed counts are the better guide.
+
+{{fig:fig4_calibration_py|How far the model is off, by time left and lead (NBA, all eras pooled): observed comebacks divided by the model's prediction, on a log scale. On the dotted line at 1 the model is right. Points where the model expects fewer than five comebacks are left out.}}
 
 <div class="eyebrow beat">Limits</div>
 

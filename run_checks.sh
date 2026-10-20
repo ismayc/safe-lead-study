@@ -27,6 +27,14 @@ echo "=== tier 2: Brownian fits, safe leads, calibration reproduce ==="
 $PY -I python/03_brownian.py --check | tail -1
 
 echo
+echo "=== example game: the one-game extract reproduces ==="
+$PY -I python/07_example_game.py --check
+
+echo
+echo "=== diagrams: every SVG reproduces from the outputs ==="
+$PY -I python/08_diagrams.py --check
+
+echo
 echo "=== reconciliation: R vs Python, every table ==="
 Rscript R/safe_lead.R >/dev/null
 $PY -I python/04_reconcile.py | tail -1
