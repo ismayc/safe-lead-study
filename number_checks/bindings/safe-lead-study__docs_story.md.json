@@ -581,7 +581,7 @@
   {
    "token": "1.0",
    "sign": "",
-   "before": " to # and it stays above zero,",
+   "before": "the interval stays above zero,",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
@@ -595,7 +595,7 @@
   {
    "token": "7.6",
    "sign": "",
-   "before": " and it stays above zero, # to",
+   "before": "nterval stays above zero, # to",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
@@ -713,7 +713,7 @@
   {
    "token": "7.8%",
    "sign": "",
-   "before": "middle eras, then stepped from",
+   "before": "eras, and then it stepped from",
    "nth": 0,
    "table": "output/situations.csv",
    "where": {
@@ -728,7 +728,7 @@
   {
    "token": "10.2%",
    "sign": "",
-   "before": " eras, then stepped from #% to",
+   "before": "and then it stepped from #% to",
    "nth": 0,
    "table": "output/situations.csv",
    "where": {
@@ -771,7 +771,7 @@
   {
    "token": "0.2",
    "sign": "+",
-   "before": "# and #% in # to # a change of",
+   "before": "in # to # which is a change of",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
@@ -877,7 +877,7 @@
   {
    "token": "17",
    "sign": "",
-   "before": "points in ## to ## (a range of",
+   "before": "ts in ## to ## with a range of",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -893,7 +893,7 @@
   {
    "token": "21",
    "sign": "",
-   "before": "s in ## to ## (a range of # to",
+   "before": " ## to ## with a range of # to",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -909,7 +909,7 @@
   {
    "token": "20",
    "sign": "",
-   "before": " # from the Wilson bounds) and",
+   "before": " # from the Wilson bounds, and",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -925,7 +925,7 @@
   {
    "token": "18",
    "sign": "",
-   "before": "ds) and # points in ## to ## (",
+   "before": "ts in ## to ## with a range of",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -941,7 +941,7 @@
   {
    "token": "23",
    "sign": "",
-   "before": "and # points in ## to ## (# to",
+   "before": " ## to ## with a range of # to",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -957,7 +957,7 @@
   {
    "token": "15",
    "sign": "",
-   "before": "(# to #). With #:# left it was",
+   "before": " # With #:# left, the lead was",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -973,7 +973,7 @@
   {
    "token": "13",
    "sign": "",
-   "before": "o #). With #:# left it was # (",
+   "before": "ith #:# left, the lead was # (",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -989,7 +989,7 @@
   {
    "token": "17",
    "sign": "",
-   "before": ". With #:# left it was # (# to",
+   "before": "#:# left, the lead was # (# to",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -1005,7 +1005,7 @@
   {
    "token": "17",
    "sign": "",
-   "before": "eft it was # (# to #) and then",
+   "before": "e lead was # (# to #) and then",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -1021,7 +1021,7 @@
   {
    "token": "13",
    "sign": "",
-   "before": "it was # (# to #) and then # (",
+   "before": "ad was # (# to #) and then # (",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
