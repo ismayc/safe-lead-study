@@ -3,7 +3,7 @@
   {
    "token": "35,492",
    "sign": "",
-   "before": "season game since the late #s:",
+   "before": "nce the late #s. This includes",
    "nth": 0,
    "table": "output/coverage.csv",
    "where": {},
@@ -297,7 +297,7 @@
   {
    "token": "55",
    "sign": "",
-   "before": "an one basket on a single row;",
+   "before": " on a single row. We leave out",
    "nth": 0,
    "table": "output/coverage.csv",
    "where": {},
@@ -373,7 +373,7 @@
   {
    "token": "27",
    "sign": "",
-   "before": "ket on a single row; # NBA and",
+   "before": "le row. We leave out # NBA and",
    "nth": 0,
    "table": "output/coverage.csv",
    "where": {},
@@ -757,7 +757,7 @@
   {
    "token": "3.7%",
    "sign": "",
-   "before": "n #% of the time in # to # and",
+   "before": "% of the time in # to # It won",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
@@ -771,7 +771,7 @@
   {
    "token": "0.2",
    "sign": "+",
-   "before": "in # to # which is a change of",
+   "before": "won #% in # to # The change is",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
@@ -785,7 +785,7 @@
   {
    "token": "4.1",
    "sign": "-",
-   "before": "f # points with an interval of",
+   "before": "e is # points. The interval is",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
@@ -799,7 +799,7 @@
   {
    "token": "3.9",
    "sign": "+",
-   "before": "oints with an interval of # to",
+   "before": "# points. The interval is # to",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
@@ -877,7 +877,7 @@
   {
    "token": "17",
    "sign": "",
-   "before": "ts in ## to ## with a range of",
+   "before": "s had a Wilson bounds range of",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -893,7 +893,7 @@
   {
    "token": "21",
    "sign": "",
-   "before": " ## to ## with a range of # to",
+   "before": " a Wilson bounds range of # to",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -909,7 +909,7 @@
   {
    "token": "20",
    "sign": "",
-   "before": " # from the Wilson bounds, and",
+   "before": " bounds range of # to # It was",
    "nth": 0,
    "table": "output/safe_leads.csv",
    "where": {
@@ -1098,7 +1098,7 @@
   {
    "token": "2.78",
    "sign": "",
-   "before": "nterval # to #) in ## to ## to",
+   "before": "# to #) in ## to ## It reached",
    "nth": 0,
    "table": "output/brownian_fits.csv",
    "where": {
@@ -1113,7 +1113,7 @@
   {
    "token": "2.68",
    "sign": "",
-   "before": "val # to #) in ## to ## to # (",
+   "before": " #) in ## to ## It reached # (",
    "nth": 0,
    "table": "output/brownian_fits.csv",
    "where": {
@@ -1128,7 +1128,7 @@
   {
    "token": "2.88",
    "sign": "",
-   "before": "# to #) in ## to ## to # (# to",
+   "before": "in ## to ## It reached # (# to",
    "nth": 0,
    "table": "output/brownian_fits.csv",
    "where": {
@@ -1522,7 +1522,7 @@
   {
    "token": "0.79%",
    "sign": "",
-   "before": "re lost #% of the time against",
+   "before": " the time. This is compared to",
    "nth": 0,
    "table": "output/brownian_calibration_pooled.csv",
    "where": {

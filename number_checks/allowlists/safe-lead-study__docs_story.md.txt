@@ -6,14 +6,13 @@
 7 @ w much more often NBA leads of  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 10 @ h more often NBA leads of # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 1% @ am comes back to win less than  # the 1% safe-lead threshold, a definition fixed by design
-5 @ time. It reads the score every  # checkpoint spacing in seconds over the last two minutes, a design setting
 30 @ inutes of regulation and every  # checkpoint spacing in seconds before the last two minutes, a design setting
 21 @ ans against Cleveland on March  # day of the month in the example game's date (March 21, 2026)
 10 @ fourth quarter up # inside the  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ h quarter up # inside the # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 95% @ ler one, and each comes with a  # the 95% interval level, a fixed setting
-10 @ the data are dense, such as a  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
-14 @ data are dense, such as a # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
+10 @ ata are dense. An example is a  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
+14 @ re dense. An example is a # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 10 @ the NBA, teams that trailed by  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ BA, teams that trailed by # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 10 @ # to # How often the team down  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
@@ -31,7 +30,7 @@
 6 @ up # to # and #:# left up # or  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 10 @ xample, entering the fourth up  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ e, entering the fourth up # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
-1% @ acks directly, we see that the  # the 1% safe-lead threshold, a definition fixed by design
+1% @ unting comebacks directly, the  # the 1% safe-lead threshold, a definition fixed by design
 6 @ ## with a range of # to # With  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
 00 @ with a range of # to # With #:  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
 1% @ ine, leads were lost less than  # the 1% safe-lead threshold, a definition fixed by design
@@ -48,8 +47,8 @@
 14 @ served rates for leads of # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 7 @ he NBA's last minute, leads of  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 10 @ A's last minute, leads of # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
-6 @ big leads with time left: with  # lower end of the 6 to 12 minutes time band (360-720s), a band label
-12 @ eads with time left: with # to  # upper end of the 6 to 12 minutes time band (360-720s), a band label
+6 @ big leads with time left. With  # lower end of the 6 to 12 minutes time band (360-720s), a band label
+12 @ eads with time left. With # to  # upper end of the 6 to 12 minutes time band (360-720s), a band label
 16 @ to # minutes to play, leads of  # lead band label 16+ (16 or more)
 1 @ g scale. On the dotted line at  # the ratio 1 at which the model is exactly right, a reference line
 10 @ unconditional: a strong team's  # an illustrative 10-point lead in a hypothetical, not a result
