@@ -31,7 +31,7 @@ way.
 ## Two ways to measure a safe lead
 
 The study defines a lead as safe when the trailing team comes back to win
-less than 1% of the time. It reads the score every 5 seconds over the last
+less than 1% of the time. It reads the score every five seconds over the last
 two minutes of regulation and every 30 seconds before that. The study
 answers in two ways, each with its own claim.
 
