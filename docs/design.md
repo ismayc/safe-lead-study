@@ -11,7 +11,7 @@ Round 2 #6).
 
 Made by Chester Ismay on October 19, 2026, before any result was computed:
 
-1. **Its own private repo**, one of three studies built on the shared
+1. **Its own repo**, one of three studies built on the shared
    PlayByPlayV3 layer.
 2. **Full history**: NBA 1996-97 to 2025-26, WNBA 1997 to 2026, regular
    season.
