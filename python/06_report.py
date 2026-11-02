@@ -91,7 +91,7 @@ def results() -> str:
         "",
         "![Comebacks from 10-14 entering the fourth quarter](figures/fig1_q4_comebacks_py.png)",
         "",
-        "### 2. Safe leads (comeback under 1%)",
+        "### 2. Safe leads (comeback rate of 1% or less)",
         "",
         "Observed (PAVA-smoothed) 1% safe lead, with the range from the Wilson bounds of its "
         "PAVA block; \"n/c\" means the games at that lead are too few to certify 1% even at "

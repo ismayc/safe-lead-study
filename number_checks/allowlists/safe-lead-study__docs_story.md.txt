@@ -5,7 +5,7 @@
 14 @ ub">NBA teams trailing by # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 7 @ w much more often NBA leads of  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 10 @ h more often NBA leads of # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
-1% @ am comes back to win less than  # the 1% safe-lead threshold, a definition fixed by design
+1% @ railing team comes back to win  # the 1% safe-lead threshold, a definition fixed by design
 30 @ inutes of regulation and every  # checkpoint spacing in seconds before the last two minutes, a design setting
 21 @ ans against Cleveland on March  # day of the month in the example game's date (March 21, 2026)
 10 @ fourth quarter up # inside the  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
@@ -33,7 +33,7 @@
 1% @ unting comebacks directly, the  # the 1% safe-lead threshold, a definition fixed by design
 6 @ ## with a range of # to # With  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
 00 @ with a range of # to # With #:  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
-1% @ ine, leads were lost less than  # the 1% safe-lead threshold, a definition fixed by design
+1% @ the red line, leads were lost  # the 1% safe-lead threshold, a definition fixed by design
 10 @ often. The boxed cells are the  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ . The boxed cells are the # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 1% @ tering the fourth.}} The NBA's  # the 1% safe-lead threshold, a definition fixed by design

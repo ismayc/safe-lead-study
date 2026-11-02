@@ -15,7 +15,11 @@ Made by Chester Ismay on October 19, 2026, before any result was computed:
    PlayByPlayV3 layer.
 2. **Full history**: NBA 1996-97 to 2025-26, WNBA 1997 to 2026, regular
    season.
-3. **"Safe" means a comeback under 1%**, with 5% and 10% reported alongside.
+3. **"Safe" means a comeback rate of 1% or less**, with 5% and 10% reported
+   alongside. The decision was first written as "under 1%". The code has always
+   used "1% or less", so the words were aligned to it on November 2, 2026, and no
+   number changed. A strict "under 1%" would move 70 of 11,556 safe-lead values,
+   because 17 smoothed rates equal exactly 1%.
 
 Made while building (October 19, 2026), each for the reason given:
 

@@ -180,7 +180,7 @@ def fig_curve(safe: pl.DataFrame, bsafe: pl.DataFrame) -> go.Figure:
     f.update_layout(**base_layout(
         f"About {last_obs} points is safe entering an NBA fourth quarter; "
         "the model's safe lead has grown",
-        "Minutes of regulation left", "Lead lost under 1% of the time (points)", height=460))
+        "Minutes of regulation left", "Lead lost 1% of the time or less (points)", height=460))
     return f
 
 

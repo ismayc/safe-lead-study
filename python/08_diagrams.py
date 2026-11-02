@@ -363,7 +363,7 @@ def dg_grid(layout: str) -> fd.Diagram:
         d.text(origins[0][0] - 28, H - 20, "Red line: the 1% safe lead.", size=s, fill="ink3")
     else:
         d.text(origins[0][0] - 30, H - 34,
-               f"Red line: the smallest lead lost under {pct(th[0], 0)} of the time.",
+               f"Red line: the smallest lead lost {pct(th[0], 0)} of the time or less.",
                size=s, fill="ink3")
     return d
 

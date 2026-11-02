@@ -31,7 +31,7 @@ small to say either way.
 ## Two ways to measure a safe lead
 
 The study defines a lead as safe when the trailing team comes back to win
-less than 1% of the time. It reads the score every five seconds over the last
+1% of the time or less. It reads the score every five seconds over the last
 two minutes of regulation and every 30 seconds before that. The study
 answers in two ways, each with its own claim.
 
@@ -93,7 +93,7 @@ quarter was 21 points in 1996-97 to 2000-01. This had a Wilson bounds range
 of 17 to 21. It was 20 points in 2021-22 to 2025-26, with a range of 18 to
 23. With 6:00 left, the lead was 15 (13 to 17) and then 17 (13 to 19).
 
-{{svg:dg3_comeback_grid|How often the NBA team trailing in the fourth quarter goes on to win, by lead (rows) and minutes left (columns), smoothed so a bigger lead is never less safe. Above the red line, leads were lost less than 1% of the time. In the recent era the darker cells reach higher in most columns: the same lead is lost more often. The boxed cells are the 10 to 14 point leads entering the fourth.}}
+{{svg:dg3_comeback_grid|How often the NBA team trailing in the fourth quarter goes on to win, by lead (rows) and minutes left (columns), smoothed so a bigger lead is never less safe. Above the red line, leads were lost 1% of the time or less. In the recent era the darker cells reach higher in most columns: the same lead is lost more often. The boxed cells are the 10 to 14 point leads entering the fourth.}}
 
 {{fig:fig3_safe_lead_curve_py|The NBA's 1% safe lead by minutes left, first era against last. Dots are observed safe leads; dotted lines are the Brownian model's. The model's curve for the recent era sits above the early one at every time left.}}
 

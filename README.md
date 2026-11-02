@@ -11,7 +11,7 @@ Two methods, each with a different claim:
 1. **Observed comebacks.** The share of games the trailing team went on to
    win, by lead, time left, and five-season era. Rates are smoothed so they
    never rise with the lead (PAVA), with Wilson intervals. "Safe" means a
-   comeback under 1% (5% and 10% are in the outputs). The era comparison
+   comeback rate of 1% or less (5% and 10% are in the outputs). The era comparison
    uses fixed game situations, where the data are dense, with Newcombe
    intervals on the change.
 2. **Stern's Brownian-motion model** (Stern 1994, JASA 89:1128-1134). The
@@ -57,7 +57,7 @@ In the NBA, 3 of 6 situations show a rise whose interval excludes zero (start of
 
 ![Comebacks from 10-14 entering the fourth quarter](figures/fig1_q4_comebacks_py.png)
 
-### 2. Safe leads (comeback under 1%)
+### 2. Safe leads (comeback rate of 1% or less)
 
 Observed (PAVA-smoothed) 1% safe lead, with the range from the Wilson bounds of its PAVA block; "n/c" means the games at that lead are too few to certify 1% even at zero comebacks (the upper bound never falls below 1%):
 
