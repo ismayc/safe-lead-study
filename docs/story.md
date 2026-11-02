@@ -5,11 +5,11 @@ that question by looking at the score at fixed moments of every
 regular-season game since the late 1990s: 35,492 NBA games from 1996-97 to
 2025-26 and 6,469 WNBA games from 1997 to 2026. We want to see how often the
 trailing team still wins, by lead and time left, and whether that has
-changed across six five-season eras. The short answer is that in the NBA, a
-lead of 10 to 14 entering the fourth quarter is lost more often than it was,
-10.1% of the time in the last five seasons against 5.8% in the first five,
-and the score margin swings more than it did. In the WNBA, the samples are
-too small to say either way.
+changed across six five-season eras. In the NBA, a lead of 10 to 14 entering
+the fourth quarter is lost more often. It happened 10.1% of the time in the
+last five seasons compared to 5.8% in the first five. Score margins also
+swing more than before. In the WNBA, the samples are too small to say either
+way.
 
 <div class="tiles">
 <div class="tile"><div class="label">Fourth-quarter comebacks</div>

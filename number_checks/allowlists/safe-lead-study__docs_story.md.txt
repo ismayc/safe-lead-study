@@ -1,6 +1,6 @@
 # safe-lead-study docs/story.md: band labels, clock readings, settings, and definitions
-10 @  is that in the NBA, a lead of  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
-14 @ hat in the NBA, a lead of # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
+10 @ on eras. In the NBA, a lead of  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
+14 @ as. In the NBA, a lead of # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 10 @ ss="sub">NBA teams trailing by  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ ub">NBA teams trailing by # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 7 @ w much more often NBA leads of  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
@@ -12,7 +12,7 @@
 10 @ fourth quarter up # inside the  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ h quarter up # inside the # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 95% @ ler one, and each comes with a  # the 95% interval level, a fixed setting
-10 @  the data are dense, such as a  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
+10 @ the data are dense, such as a  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ data are dense, such as a # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 10 @ the NBA, teams that trailed by  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ BA, teams that trailed by # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
@@ -20,10 +20,10 @@
 14 @ # How often the team down # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 95% @ rth quarter wins, by era, with  # the 95% interval level, a fixed setting
 10 @ start of the fourth quarter up  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
-14 @  of the fourth quarter up # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
+14 @ of the fourth quarter up # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 6 @ f the fourth quarter up # to #  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
 00 @ he fourth quarter up # to # #:  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
-10 @  quarter up # to # #:# left up  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
+10 @ quarter up # to # #:# left up  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ ter up # to # #:# left up # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 1 @ # to # #:# left up # to # and  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
 00 @ to # #:# left up # to # and #:  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
@@ -41,9 +41,9 @@
 1% @ se single cells are noisy. The  # the 1% safe-lead threshold, a definition fixed by design
 6 @ s why a lead can read safer at  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
 00 @ hy a lead can read safer at #:  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
-3 @  can read safer at #:# than at  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
+3 @ can read safer at #:# than at  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
 00 @ n read safer at #:# than at #:  # seconds or minutes of a game-clock reading (6:00, 1:00, 3:00), a time label
-1% @  and # in ## to ## The model's  # the 1% safe-lead threshold, a definition fixed by design
+1% @ and # in ## to ## The model's  # the 1% safe-lead threshold, a definition fixed by design
 10 @ he observed rates for leads of  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 14 @ served rates for leads of # to  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition
 7 @ he NBA's last minute, leads of  # lead-band label (the situation's lead range, e.g. 10 to 14, 7 to 10, 5 or 6), a definition

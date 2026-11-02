@@ -41,7 +41,7 @@
   {
    "token": "10.1%",
    "sign": "",
-   "before": "s lost more often than it was,",
+   "before": "s lost more often. It happened",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
@@ -55,7 +55,7 @@
   {
    "token": "5.8%",
    "sign": "",
-   "before": " the last five seasons against",
+   "before": " last five seasons compared to",
    "nth": 0,
    "table": "output/situation_change.csv",
    "where": {
